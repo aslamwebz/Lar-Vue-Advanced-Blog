@@ -1,0 +1,15 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+use Laratrust\Models\LaratrustRole;
+
+
+class Role extends LaratrustRole
+{
+    Protected $fillable = ([
+    	'name', 'display_name', 'description',
+    ]);
+}
